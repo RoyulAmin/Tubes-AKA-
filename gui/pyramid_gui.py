@@ -330,4 +330,4 @@ class PyramidGUI:
         final_text = f"{header}\n{div}\n{row1}\n{row2}\n{row3}\n{row4}"
         top = tk.Toplevel(self.root)
         top.title("Hasil Solver")
-        tk.Label(top, text=final_text, font=("Consolas", 11), justify="left", padx=20, pady=20, bg="#f0f0f0da").pack()
+        tk.Label(top, text=final_text, font=("Consolas", 11), justify="left", padx=20, pady=20, bg="#f0f0f0").pack()
